@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Unplug </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="frontend.css" title="style" /> 
+        <script src="backend.js"></script>
+	</head>
+
+
+
+
+
+<body>
+	<div class="phone-screen">
+		<!---------------->
+		<div class="intro-screen">
+			<img src="images/logo.gif" alt="Your GIF" class="gif">
+			<h1 class="intro-text">Unplug</h1>
+		</div>
+		<!------------->
+		<div class="phone-content">
+			<div class="game-container">
+				<div class="banner" id="floatingBanner">
+					Each day is a new victory. Keep going!
+				</div>
+
+				<button id="DemoButton">Demo</button>
+
+
+				<div class = "block">
+
+			<section id="streak">
+				<h2 style="color: rgb(147, 89, 41);"><span id="checkInCount">0 </span></h2>
+				<h2 style="color: rgb(147, 89, 41); text-align: center; font-family: 'Trebuchet MS' ;">Days Unplugged </h2>
+				
+			</section>      
+					<div class="calendar-container"> 
+						<div id="monthDisplay"></div>  <!-- Display the month -->
+						<div class="calendar" id="calendar"></div>
+					</div>
+					<button id="checkInButton" onclick="checkIn()">Check-In</button>
+				</div>
+
+						<div class = "pet-container">
+						<img src="images/pet.gif" class = "dog" id="dog">
+						<img src="images/healthbar/hb_max.png" class = "hb_max">
+					</div>
+		
+					<img src="images/wallet.png" class = "wallet">
+		
+					<div id="skipMessage"></div>
+			 </div>
+		</div>
+</div>	
+
+</body>
+
+</html>
